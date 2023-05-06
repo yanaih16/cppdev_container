@@ -1,0 +1,12 @@
+
+{
+    "name": "golangdev",
+    "dockerComposeFile": "./docker-compose.yml",
+    "service": "golangdev",
+    "remoteUser": "docker",
+    "workspaceFolder": "/home/docker/golangdev",
+    "extensions": [
+	    "golang.go"
+	],
+    "shutdownAction": "stopCompose"
+}
